@@ -1,0 +1,9 @@
+# Python 3.10+
+ultralytics>=8.4.0
+openvino>=2024.0.0
+numpy>=1.23
+Pillow>=9.0
+opencv-python>=4.8
+# YOLOE imports the OpenAI CLIP tokenizer even when its MobileCLIP2 encoder is
+# used. This PyPI package provides the ``clip`` module.
+openai-clip>=1.0.1
